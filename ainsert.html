@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="reg">
+<form method="POST"action="ainsert.php"><!--sending data to ainsert-->
+<!--<p><strong>productId:</strong>   <input type="text" name="id"></p>-->
+<p><strong>CategoryId</strong>
+<select name="catid">
+<option value="1">footwear</option>
+<option value="2">fashion</option>
+<option value="3">electronics</option>
+</select>
+<!--<p><strong>CategoryId</strong>         <input type="text" name="cat"></p>-->
+<p><strong>ProductName</strong>         <input type="text" name="pname"></p>
+<p><strong>productImage</strong>         <input type="file" name="pimage"></p>
+<p><strong>Price</strong>         <input type="text" name="pprice"></p>
+<p>        <strong> <input type="submit" name="click" value="Insert"><br/><br/></strong> </p>
+         
+</form>
+</div>
+<style type="text/css">
+body {
+	      width:100%;
+	      height:auto;
+	       background-repeat:no repeat;
+	        background: url(wall3.jpg);
+		
+		background-size: 100%;
+	}
+	
+	#reg {
+
+		position: relative;
+		left: 500px;
+		top: 95px;
+		color:black ;
+		width:150px;
+		font-size:22px;
+	}
+
+</style>
+</body>
+</html>
